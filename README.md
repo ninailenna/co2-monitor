@@ -20,7 +20,7 @@ A portable monitor that measures indoor CO₂ concentration, temperature and rel
 
 | Live measurements | CO₂ history |
 | :---: | :---: |
-| <img src="images/main-screen.jpg" alt="Main screen showing CO₂, temperature, humidity and status icons" width="380"> | <img src="images/co2-history.jpg" alt="Graphical CO₂ measurement history with an alarm threshold line" width="380"> |
+| <img src="main-screen.jpg" alt="Main screen showing CO₂, temperature, humidity and status icons" width="380"> | <img src="images/co2-history.jpg" alt="Graphical CO₂ measurement history with an alarm threshold line" width="380"> |
 | **Large CO₂ display** | **Room dashboard** |
 | <img src="images/large-co2-display.jpg" alt="Large numerical CO₂ reading" width="380"> | <img src="images/room-dashboard.jpg" alt="Room dashboard with CO₂, temperature and humidity" width="380"> |
 
