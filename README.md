@@ -1,4 +1,6 @@
 # Smart Indoor CO₂ Monitor
+<img width="1179" height="2059" alt="image" src="https://github.com/user-attachments/assets/80982068-47d6-4477-91fd-b8f4556a4448" />
+
 
 **ESP32-S3 · Sensirion SCD41 · Custom PCB · Embedded firmware**
 
