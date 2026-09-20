@@ -1,5 +1,5 @@
 # Smart Indoor CO₂ Monitor
-<img width="380" height="400" alt="image" src="https://github.com/user-attachments/assets/80982068-47d6-4477-91fd-b8f4556a4448" />
+<img width="380" height="500" alt="image" src="https://github.com/user-attachments/assets/80982068-47d6-4477-91fd-b8f4556a4448" />
 
 
 **ESP32-S3 · Sensirion SCD41 · Custom PCB · Embedded firmware**
@@ -20,14 +20,14 @@ A portable monitor that measures indoor CO₂ concentration, temperature and rel
 
 | Live measurements | CO₂ history |
 | :---: | :---: |
-| <img src="main-screen.jpg" alt="Main screen showing CO₂, temperature, humidity and status icons" width="380"> | <img src="images/co2-history.jpg" alt="Graphical CO₂ measurement history with an alarm threshold line" width="380"> |
+| <img src="main-screen.jpg" alt="Main screen showing CO₂, temperature, humidity and status icons" width="380"> | <img src="co2-history.jpg" alt="Graphical CO₂ measurement history with an alarm threshold line" width="380"> |
 | **Large CO₂ display** | **Room dashboard** |
-| <img src="images/large-co2-display.jpg" alt="Large numerical CO₂ reading" width="380"> | <img src="images/room-dashboard.jpg" alt="Room dashboard with CO₂, temperature and humidity" width="380"> |
+| <img src="large-co2-display.jpg" alt="Large numerical CO₂ reading" width="380"> | <img src="room-dashboard.jpg" alt="Room dashboard with CO₂, temperature and humidity" width="380"> |
 
 <details>
 <summary>Sound and alarm settings</summary>
 
-<img src="images/alarm-settings.jpg" alt="Settings screen with sound, CO₂ alarm, threshold and buzzer test controls" width="550">
+<img src="alarm-settings.jpg" alt="Settings screen with sound, CO₂ alarm, threshold and buzzer test controls" width="550">
 
 </details>
 
@@ -43,7 +43,7 @@ A portable monitor that measures indoor CO₂ concentration, temperature and rel
 | Battery charging | Microchip MCP73834T-FCI/MF, with USB-C input |
 | User input and alerts | Five navigation buttons and a TDK PS1720P02 piezo buzzer |
 
-The [bill of materials](docs/bill-of-materials.xlsx) lists the PCB components and their part numbers. It covers the board itself; it is not a complete shopping list for the assembled device, including the external display and battery.
+The [bill of materials](bill-of-materials.xlsx) lists the PCB components and their part numbers. It covers the board itself; it is not a complete shopping list for the assembled device, including the external display and battery.
 
 ## PCB development
 
@@ -52,7 +52,7 @@ The custom PCB was developed across two revisions:
 - **Revision 1 — laboratory assembly:** we assembled two boards using stencil-applied solder paste, manually placed SMD components and a reflow oven. Assembly faults, including a short circuit on one board, highlighted the challenges of the manual process.
 - **Revision 2 — assembled by JLCPCB:** we revised the board and used JLCPCB's PCBA service for component placement and soldering.
 
-The [PCB fabrication PDF](docs/pcb-fabrication.pdf) contains the board's component-placement and assembly drawings exported from Altium Designer.
+The [PCB fabrication PDF](pcb-fabrication.pdf) contains the board's component-placement and assembly drawings exported from Altium Designer.
 
 ## Firmware
 
@@ -66,11 +66,9 @@ The interface includes measurement views, history, settings and button shortcuts
 
 | File | Contents |
 | --- | --- |
-| [Bill of materials](docs/bill-of-materials.xlsx) | Original PCB BOM with component quantities and part numbers |
-| [PCB fabrication PDF](docs/pcb-fabrication.pdf) | Component-placement and assembly drawings |
-| [Project description — German](docs/project-description-de.pdf) | Development overview, operating instructions and prototype photographs |
-| [Images](images/) | Prototype and interface photographs extracted from the project description |
+| [Bill of materials](bill-of-materials.xlsx) | Original PCB BOM with component quantities and part numbers |
+| [PCB fabrication PDF](pcb-fabrication.pdf) | Component-placement and assembly drawings |
+| [Project description — German](project-description-de.pdf) | Development overview, operating instructions and prototype photographs |
 
 ## Team
-
-Developed jointly by **Nina-Ilenna Müller** and **Maksym Poizdnyk**.
+Developed by **Nina-Ilenna Müller** and **Maksym Poizdnyk**.
