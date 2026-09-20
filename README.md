@@ -1,14 +1,12 @@
 # Smart Indoor CO₂ Monitor
-<img width="380" height="500" alt="image" src="https://github.com/user-attachments/assets/80982068-47d6-4477-91fd-b8f4556a4448" />
+<img width="280" height="500" alt="image" src="https://github.com/user-attachments/assets/80982068-47d6-4477-91fd-b8f4556a4448" />
 
 
 **ESP32-S3 · Sensirion SCD41 · Custom PCB · Embedded firmware**
-
 A portable monitor that measures indoor CO₂ concentration, temperature and relative humidity. The project combines a custom PCB designed in Altium Designer, a battery-powered ESP32-S3 system and a graphical interface with live readings, measurement history and configurable acoustic alerts.
 
 
 ## Features
-
 - **Live measurements:** CO₂ in ppm, temperature and relative humidity, with a colour-coded CO₂ status.
 - **Multiple views:** main screen, large CO₂ display, room dashboard and graphical CO₂ history.
 - **Five-button navigation:** MENU, UP, OK, DOWN and BACK, including shortcuts to the main views.
@@ -17,7 +15,6 @@ A portable monitor that measures indoor CO₂ concentration, temperature and rel
 - **Display standby:** the screen can be switched off while measurements continue.
 
 ## Interface
-
 | Live measurements | CO₂ history |
 | :---: | :---: |
 | <img src="main-screen.jpg" alt="Main screen showing CO₂, temperature, humidity and status icons" width="380"> | <img src="co2-history.jpg" alt="Graphical CO₂ measurement history with an alarm threshold line" width="380"> |
