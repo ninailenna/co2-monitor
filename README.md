@@ -3,7 +3,7 @@
 
 
 **ESP32-S3 · Sensirion SCD41 · Custom PCB · Embedded firmware**
-A portable monitor that measures indoor CO₂ concentration, temperature and relative humidity. The project combines a custom PCB designed in Altium Designer, a battery-powered ESP32-S3 system and a graphical interface with live readings, measurement history and configurable acoustic alerts.
+A portable monitor that measures indoor CO₂ concentration, temperature and relative humidity. The project combines a custom PCB designed in Altium Designer, a battery-powered ESP32-S3 system and a graphical interface with live readings, measurement history and configurable acoustic alerts. It is important to not touch the Sensirion SCD41, since it is very sensitive. Therefore, we are planning on making a fitting enclosure, especially around the SCD41.
 
 
 ## Features
